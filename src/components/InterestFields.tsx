@@ -169,7 +169,7 @@ export default function InterestFields() {
           <CircularProgress color="inherit" />
         ) : (
           <>
-            <LineChart width={700} height={500} data={data}>
+            <LineChart width={850} height={500} data={data}>
               <XAxis dataKey="name" tickCount={10} />
               <YAxis tickCount={10} />
               <Tooltip />
