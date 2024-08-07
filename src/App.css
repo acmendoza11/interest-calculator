@@ -1,0 +1,52 @@
+.body {
+  background-color: #14181b;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  /* Override MUI Styles */
+
+  .MuiPaper-outlined,
+  .MuiDivider-root {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .MuiDivider-root {
+    margin-bottom: 20px;
+  }
+
+  .MuiTypography-root,
+  .MuiInputLabel-root,
+  .MuiInputBase-input {
+    color: white;
+  }
+
+  .MuiTextField-root {
+    width: 200px;
+  }
+
+  .MuiInputBase-input.Mui-disabled {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-text-fill-color: unset;
+  }
+
+  .MuiOutlinedInput-root.Mui-disabled fieldset {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .MuiOutlinedInput-root fieldset {
+    border: 1px solid rgb(255, 255, 255);
+  }
+
+  .MuiOutlinedInput-root.Mui-focused fieldset {
+    border: 2px solid #1976d2;
+  }
+
+  .MuiStack-root {
+    margin-bottom: 20px;
+  }
+}

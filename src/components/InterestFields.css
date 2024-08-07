@@ -1,0 +1,42 @@
+#root .main-card {
+  background-color: #121212;
+  color: white;
+  padding: 15px;
+
+  width: 900px;
+
+  .MuiStack-root {
+    min-width: 550px;
+  }
+
+  .fields {
+    height: 205px;
+    align-items: center;
+  }
+
+  .filters {
+    margin-left: 15px;
+    transition: all ease-in;
+  }
+
+  .result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+    .recharts-wrapper {
+      .recharts-cartesian-axis-tick tspan {
+        fill: rgba(255, 255, 255, 0.8);
+      }
+
+      .recharts-tooltip-label {
+        color: white;
+      }
+
+      .recharts-default-tooltip {
+        background-color: #14181b !important;
+      }
+    }
+  }
+}
