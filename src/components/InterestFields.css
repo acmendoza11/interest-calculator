@@ -11,6 +11,7 @@
 
   .fields {
     height: 205px;
+    display: flex;
     align-items: center;
   }
 
